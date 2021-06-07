@@ -1,9 +1,12 @@
 //colors
 
 $primary-color: #58e1c1;
-$color-secondary: #777;
-$color-tertiary: #ec9fa3;
-$accent-one: #927bc1;
-$accent-two: #51ddfc;
+$headline-color: #51ddfc;
+$font-color: #777;
+$error-btn: #e4757a;
+$info-btn: #927bc1;
 
-//
+
+//media query breakpoint
+
+$media-break: '(min-width:768px)';
