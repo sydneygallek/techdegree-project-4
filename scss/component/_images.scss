@@ -1,6 +1,18 @@
-@import "navigation",
-        "typography",
-        "image",
-        "forms",
-        "buttons",
-        "grid";
+.img{
+	&-avatar {
+		@extend %img;
+		@include desktop_view{
+			margin: 0 auto;
+		}
+	}
+	&-logo{
+		@extend %img;	
+	}
+	&-frame {
+		width: 90%;
+		margin: 0 auto;
+		padding: 0.8rem;
+		display: block;
+		border: solid $gray-light 1px;
+	}
+}
