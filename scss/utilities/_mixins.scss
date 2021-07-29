@@ -1,0 +1,5 @@
+@mixin desktop_view{
+    @media (min-width:$media-break){
+      @content;
+    }
+  }
